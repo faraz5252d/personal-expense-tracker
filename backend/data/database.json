@@ -1,0 +1,353 @@
+{
+  "categories": [
+    {
+      "id": "cat-housing",
+      "name": "Housing & Rent",
+      "type": "expense",
+      "icon": "Home",
+      "color": "#6366f1",
+      "isDefault": true
+    },
+    {
+      "id": "cat-groceries",
+      "name": "Groceries",
+      "type": "expense",
+      "icon": "ShoppingBag",
+      "color": "#10b981",
+      "isDefault": true
+    },
+    {
+      "id": "cat-dining",
+      "name": "Food & Dining",
+      "type": "expense",
+      "icon": "Utensils",
+      "color": "#f59e0b",
+      "isDefault": true
+    },
+    {
+      "id": "cat-transport",
+      "name": "Transportation",
+      "type": "expense",
+      "icon": "Car",
+      "color": "#3b82f6",
+      "isDefault": true
+    },
+    {
+      "id": "cat-utilities",
+      "name": "Utilities & Bills",
+      "type": "expense",
+      "icon": "Zap",
+      "color": "#ec4899",
+      "isDefault": true
+    },
+    {
+      "id": "cat-entertainment",
+      "name": "Entertainment",
+      "type": "expense",
+      "icon": "Film",
+      "color": "#8b5cf6",
+      "isDefault": true
+    },
+    {
+      "id": "cat-health",
+      "name": "Healthcare & Fitness",
+      "type": "expense",
+      "icon": "Activity",
+      "color": "#ef4444",
+      "isDefault": true
+    },
+    {
+      "id": "cat-shopping",
+      "name": "Shopping & Gear",
+      "type": "expense",
+      "icon": "Package",
+      "color": "#14b8a6",
+      "isDefault": true
+    },
+    {
+      "id": "cat-education",
+      "name": "Education & Books",
+      "type": "expense",
+      "icon": "BookOpen",
+      "color": "#06b6d4",
+      "isDefault": true
+    },
+    {
+      "id": "cat-other-exp",
+      "name": "Miscellaneous",
+      "type": "expense",
+      "icon": "Tag",
+      "color": "#64748b",
+      "isDefault": true
+    },
+    {
+      "id": "cat-salary",
+      "name": "Salary",
+      "type": "income",
+      "icon": "Briefcase",
+      "color": "#22c55e",
+      "isDefault": true
+    },
+    {
+      "id": "cat-freelance",
+      "name": "Freelance & Contract",
+      "type": "income",
+      "icon": "Laptop",
+      "color": "#3b82f6",
+      "isDefault": true
+    },
+    {
+      "id": "cat-investment",
+      "name": "Investments & Dividends",
+      "type": "income",
+      "icon": "TrendingUp",
+      "color": "#8b5cf6",
+      "isDefault": true
+    },
+    {
+      "id": "cat-other-inc",
+      "name": "Other Income",
+      "type": "income",
+      "icon": "DollarSign",
+      "color": "#10b981",
+      "isDefault": true
+    }
+  ],
+  "budgets": [
+    {
+      "id": "b-housing",
+      "categoryId": "cat-housing",
+      "amount": 1200,
+      "month": "2026-10"
+    },
+    {
+      "id": "b-groceries",
+      "categoryId": "cat-groceries",
+      "amount": 450,
+      "month": "2026-10"
+    },
+    {
+      "id": "b-dining",
+      "categoryId": "cat-dining",
+      "amount": 250,
+      "month": "2026-10"
+    },
+    {
+      "id": "b-transport",
+      "categoryId": "cat-transport",
+      "amount": 200,
+      "month": "2026-10"
+    },
+    {
+      "id": "b-utilities",
+      "categoryId": "cat-utilities",
+      "amount": 180,
+      "month": "2026-10"
+    },
+    {
+      "id": "b-entertainment",
+      "categoryId": "cat-entertainment",
+      "amount": 150,
+      "month": "2026-10"
+    },
+    {
+      "id": "b-shopping",
+      "categoryId": "cat-shopping",
+      "amount": 200,
+      "month": "2026-10"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "d55388f4-ed1e-46c5-b6c9-bdba45f6efa3",
+      "title": "Monthly Salary Deposit",
+      "amount": 4200,
+      "type": "income",
+      "categoryId": "cat-salary",
+      "date": "2026-10-01",
+      "paymentMethod": "Bank Transfer",
+      "notes": "Primary payroll direct deposit",
+      "createdAt": "2026-10-01T13:50:33.094Z"
+    },
+    {
+      "id": "ff2900b1-dbe1-4d93-a8ec-fe87995ca864",
+      "title": "Freelance UI/UX Project",
+      "amount": 850,
+      "type": "income",
+      "categoryId": "cat-freelance",
+      "date": "2026-10-07",
+      "paymentMethod": "Bank Transfer",
+      "notes": "Mobile app client payout",
+      "createdAt": "2026-10-07T13:50:33.094Z"
+    },
+    {
+      "id": "923e8a01-7d3e-4fa5-94ae-08d7c001be32",
+      "title": "Stock Dividend Yield",
+      "amount": 120,
+      "type": "income",
+      "categoryId": "cat-investment",
+      "date": "2026-09-25",
+      "paymentMethod": "Bank Transfer",
+      "notes": "Quarterly index fund dividend",
+      "createdAt": "2026-09-25T13:50:33.094Z"
+    },
+    {
+      "id": "f304bc14-6e07-40ed-8b55-e884247314fe",
+      "title": "Apartment Rent",
+      "amount": 1150,
+      "type": "expense",
+      "categoryId": "cat-housing",
+      "date": "2026-10-02",
+      "paymentMethod": "Bank Transfer",
+      "notes": "Monthly lease payment",
+      "createdAt": "2026-10-02T13:50:33.094Z"
+    },
+    {
+      "id": "ec77ec91-aac9-4742-a85f-4cb3a7f26a6e",
+      "title": "Whole Foods Supermarket",
+      "amount": 134.5,
+      "type": "expense",
+      "categoryId": "cat-groceries",
+      "date": "2026-10-11",
+      "paymentMethod": "Credit Card",
+      "notes": "Weekly grocery restocking",
+      "createdAt": "2026-10-11T13:50:33.094Z"
+    },
+    {
+      "id": "df02fd0c-2a44-47f4-9835-b1af7a013b36",
+      "title": "Trader Joe's Essentials",
+      "amount": 86.2,
+      "type": "expense",
+      "categoryId": "cat-groceries",
+      "date": "2026-10-05",
+      "paymentMethod": "Debit Card",
+      "notes": "Snacks & organic staples",
+      "createdAt": "2026-10-05T13:50:33.094Z"
+    },
+    {
+      "id": "489914c7-a828-4048-9cf0-04508373642d",
+      "title": "Electric & Power Utility",
+      "amount": 92.4,
+      "type": "expense",
+      "categoryId": "cat-utilities",
+      "date": "2026-10-03",
+      "paymentMethod": "Bank Transfer",
+      "notes": "Electric bill",
+      "createdAt": "2026-10-03T13:50:33.094Z"
+    },
+    {
+      "id": "481d1691-f72e-49d4-a21a-5eedbc89257d",
+      "title": "High-Speed Fiber Internet",
+      "amount": 65,
+      "type": "expense",
+      "categoryId": "cat-utilities",
+      "date": "2026-09-29",
+      "paymentMethod": "Credit Card",
+      "notes": "Fiber broadband",
+      "createdAt": "2026-09-29T13:50:33.094Z"
+    },
+    {
+      "id": "cd5f3cdc-c0a7-4ba6-b5d6-00dae3297255",
+      "title": "Italian Bistro Dinner",
+      "amount": 74.5,
+      "type": "expense",
+      "categoryId": "cat-dining",
+      "date": "2026-10-10",
+      "paymentMethod": "Credit Card",
+      "notes": "Dinner with teammates",
+      "createdAt": "2026-10-10T13:50:33.094Z"
+    },
+    {
+      "id": "2e2b4451-25b9-4803-8cf8-47fb0b3c3ab5",
+      "title": "Blue Bottle Specialty Coffee",
+      "amount": 18.25,
+      "type": "expense",
+      "categoryId": "cat-dining",
+      "date": "2026-10-12",
+      "paymentMethod": "UPI",
+      "notes": "Coffee and bakery pastry",
+      "createdAt": "2026-10-12T13:50:33.094Z"
+    },
+    {
+      "id": "2095d629-95aa-4dff-98e3-2676e60cf2e6",
+      "title": "Subway & Transit Pass",
+      "amount": 45,
+      "type": "expense",
+      "categoryId": "cat-transport",
+      "date": "2026-10-08",
+      "paymentMethod": "Debit Card",
+      "notes": "Monthly metro card reload",
+      "createdAt": "2026-10-08T13:50:33.094Z"
+    },
+    {
+      "id": "eb31a996-e2bd-4929-90e2-7add674f676d",
+      "title": "Shell Fuel Station",
+      "amount": 52.8,
+      "type": "expense",
+      "categoryId": "cat-transport",
+      "date": "2026-10-04",
+      "paymentMethod": "Credit Card",
+      "notes": "Gas refill",
+      "createdAt": "2026-10-04T13:50:33.094Z"
+    },
+    {
+      "id": "2ca32f96-425d-47eb-8f17-9f713a4acde1",
+      "title": "Cinema IMAX Tickets",
+      "amount": 34,
+      "type": "expense",
+      "categoryId": "cat-entertainment",
+      "date": "2026-10-09",
+      "paymentMethod": "Credit Card",
+      "notes": "Weekend movie premiere",
+      "createdAt": "2026-10-09T13:50:33.094Z"
+    },
+    {
+      "id": "bcf3a5bc-f1ae-42bb-979b-39a2f5ba75ed",
+      "title": "Spotify Premium Subscription",
+      "amount": 10.99,
+      "type": "expense",
+      "categoryId": "cat-entertainment",
+      "date": "2026-09-28",
+      "paymentMethod": "Credit Card",
+      "notes": "Family music plan",
+      "createdAt": "2026-09-28T13:50:33.094Z"
+    },
+    {
+      "id": "a666c746-7dfb-415e-a15b-e5b523b1e0df",
+      "title": "Fitness Gym Membership",
+      "amount": 55,
+      "type": "expense",
+      "categoryId": "cat-health",
+      "date": "2026-09-30",
+      "paymentMethod": "Debit Card",
+      "notes": "Monthly gym dues",
+      "createdAt": "2026-09-30T13:50:33.094Z"
+    },
+    {
+      "id": "d87ba576-9d87-4eaa-b4c1-3701453c358f",
+      "title": "Running Shoes & Socks",
+      "amount": 110,
+      "type": "expense",
+      "categoryId": "cat-shopping",
+      "date": "2026-10-06",
+      "paymentMethod": "Credit Card",
+      "notes": "Sportswear purchase",
+      "createdAt": "2026-10-06T13:50:33.094Z"
+    },
+    {
+      "id": "bd2546a1-267d-447e-a948-082140fe7b91",
+      "title": "Online Cloud Course",
+      "amount": 29.99,
+      "type": "expense",
+      "categoryId": "cat-education",
+      "date": "2026-09-27",
+      "paymentMethod": "Credit Card",
+      "notes": "Fullstack certification",
+      "createdAt": "2026-09-27T13:50:33.094Z"
+    }
+  ],
+  "settings": {
+    "currency": "$",
+    "monthlyBudgetCap": 3000
+  }
+}
