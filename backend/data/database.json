@@ -159,6 +159,17 @@
   ],
   "transactions": [
     {
+      "id": "d399e04e-cdc0-406e-9258-82fc5291a002",
+      "title": "Espresso Coffee",
+      "amount": 4.5,
+      "type": "expense",
+      "categoryId": "cat-dining",
+      "date": "2026-10-13",
+      "paymentMethod": "UPI",
+      "notes": "",
+      "createdAt": "2026-10-13T14:01:34.555Z"
+    },
+    {
       "id": "d55388f4-ed1e-46c5-b6c9-bdba45f6efa3",
       "title": "Monthly Salary Deposit",
       "amount": 4200,
