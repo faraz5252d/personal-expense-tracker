@@ -8,6 +8,13 @@ dist/
 build/
 .output/
 
+# Java & Maven
+target/
+*.class
+*.jar
+*.war
+.mvn/wrapper/maven-wrapper.jar
+
 # Environment files
 .env
 .env.local
@@ -21,6 +28,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+push-log.txt
 
 # Editor & OS files
 .vscode/
@@ -32,3 +40,6 @@ lerna-debug.log*
 *.sw?
 .DS_Store
 Thumbs.db
+
+# Accidental nested folder
+personal-expense-tracker/

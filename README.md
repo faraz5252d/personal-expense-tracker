@@ -4,11 +4,12 @@
 [![React](https://img.shields.io/badge/Frontend-React%2019-61dafb.svg)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Bundler-Vite%206-646cff.svg)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Styles-Tailwind%20v4-38bdf8.svg)](https://tailwindcss.com/)
-[![Express](https://img.shields.io/badge/Backend-Node.js%20%2F%20Express-black.svg)](https://expressjs.com/)
+[![Spring Boot](https://img.shields.io/badge/Backend-Spring%20Boot%203.3-6db33f.svg)](https://spring.io/projects/spring-boot)
+[![MySQL](https://img.shields.io/badge/Database-MySQL%208.0-4479a1.svg)](https://www.mysql.com/)
 [![Vercel](https://img.shields.io/badge/Frontend%20Deploy-Vercel-black.svg)](https://vercel.com)
 [![Render](https://img.shields.io/badge/Backend%20Deploy-Render-46e3b7.svg)](https://render.com)
 
-A full-stack, responsive Personal Expense Management System designed to help users track cash flows, set monthly budgets, categorize transactions, and make smarter financial decisions.
+A full-stack, responsive Personal Expense Management System powered by Spring Boot, MySQL, and React to help users track cash flows, set monthly budgets, categorize transactions, and make smarter financial decisions.
 
 ---
 
@@ -92,8 +93,10 @@ personal-expense-tracker/
 ## 🚀 Running Locally
 
 ### Prerequisites
-- Node.js (v18 or higher)
-- npm (v9 or higher)
+- Java 21 or higher
+- Maven 3.8+ (or use the included `./mvnw`)
+- MySQL 8.0 running locally
+- Node.js (v18 or higher) & npm
 
 ### 1. Clone the Repository
 ```bash
@@ -101,13 +104,13 @@ git clone https://github.com/faraz5252d/personal-expense-tracker.git
 cd personal-expense-tracker
 ```
 
-### 2. Start Backend Server
+### 2. Start Backend Server (Spring Boot)
 ```bash
 cd backend
-npm install
-npm run dev
+mvn spring-boot:run
 ```
 *Backend runs on: `http://localhost:5000`*
+*(Legacy Node.js backend is archived under `backend-node/`)*
 
 ### 3. Start Frontend App (in a new terminal)
 ```bash
